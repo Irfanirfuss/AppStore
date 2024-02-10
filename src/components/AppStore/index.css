@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-store {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  max-width: 1110px;
+  align-items: center;
+}
+.app-container {
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+
+  justify-content: center;
+
+  background-image: linear-gradient(to top, #fff1eb, #ace0f9);
+}
+.search-logo {
+  width: 30px;
+  text-align: center;
+  margin-left: 0px;
+  padding-top: 0px;
+}
+.search-image {
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  margin-top: 0px;
+  width: auto;
+  border-style: none;
+}
+.search-container {
+  border: 2px solid #7b8794;
+  border-radius: 10px;
+}
+.byn-container {
+  padding-top: 10px;
+  background-color: transparent;
+}
+button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+.ul-container {
+  display: flex;
+  justify-content: center;
+}
+.search-Input-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 370px;
+  border: 2px solid #7b8794;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+.search-input {
+  font-size: 26px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+.tabs-list {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  margin-top: 32px;
+}
+.app-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-left: 0px;
+}
